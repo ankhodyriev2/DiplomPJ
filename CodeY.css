@@ -5,6 +5,8 @@ body{
   background: #FFF;
 }
 .logo{
+  box-sizing: border-box;
+  padding: 25px 1119px 15px 135px;
   display: flex;
   width: 1440px;
   height: 90px;
@@ -12,21 +14,30 @@ body{
   background: #FFF;
 }
 .logo img{
-  padding: 25px 1119px 15px 135px;
+  position: relative;
+  width: 186px;
+  height: 50px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  /*padding: 25px 1119px 15px 135px;*/
 }
+/*NAV панелька*/
 .list{
-  display:flex;
-  align-items: center;
-  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 0 671.151px 0 135px;
   width: 1440px;
   height: 60px;
-  background: #FFF;
+  display: inline-flex;
+  align-items: center;
   gap: 29.626px;
+  flex-shrink: 0;
+  background: #FFF;
 }
 ul{
+  padding-left: 0;
+  display: flex;
   height: 60px;
-  display: inline-flex;
-  padding: 0 671.151px 0 135px;
+  justify-content: center;
   gap: 29.626px;
   flex-shrink: 0;
   list-style-type: none;
@@ -34,9 +45,9 @@ ul{
 }
 li a{
   display: flex;
-  justify-content: space-between;
-  width: 57.004px;
   height: 60px;
+  flex-direction: column;
+  justify-content: center;
   color: #99A2AA;
   font-family: Rubik sans-serif;
   font-size: 16px;
