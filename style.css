@@ -1,0 +1,384 @@
+.top-line{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 1);
+}
+.header{
+  width: 1440px;
+  height: 90px;
+  padding-top: 0;
+  padding-left: 671px;
+  padding-right: 135px;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 60px;
+  background: white;
+}
+.navbar{
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  margin-inline-start: 0;
+  margin-inline-end: 60px;
+  padding-inline-start: 40px;
+}
+
+#tracking-link,#branches-link,#business-link,#career-link,#philately-link,#services-link,#tarif-link {
+  font-family: "Rubik Regular",sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  color: #99a2aa;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 60px;
+}
+.tab-panel{
+  width: 1440px;
+  height: 450px;
+  top: 140px;
+  /*padding: 0 135px 735px 220px;*/
+  background: #FEC524;
+}
+.tab-panel-content{
+  display: inline-block;
+  justify-items: center;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  width: 570px;
+  height: 230px;
+  left: 135px;
+}
+.c1{
+  width: 299.74px;
+  height: 52px;
+  top: 54px;
+  font-family: Rubik-regular, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+.c2{
+  width: 282.97px;
+  height: 52px;
+  top: 114px;
+  font-family: Rubik-regular, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+.tab-panel-content p{
+  width: 312.72px;
+  height: 30px;
+  top: 200px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.services-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1440px;
+  height: 800px;
+  top: 590px;
+  color: #F8F8F8;
+}
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 1200px;
+  height: 212px;
+  top: -157.5px;
+  /*left: 120px;*/
+}
+.container-ROFP{
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1200px;
+  height: 106px;
+  /*top: -157.5px;
+ /*left: 120px;*/
+}
+
+.linkR,.linkO,.linkF,.linkP{
+  position: relative;
+  width: 270px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 35px 0 #5F62662B;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  color: #99A2AA;
+}
+.placeholder{
+
+  width: 570px;
+  height: 72px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 3px 35px 0 #5F62662B;
+}
+.placeholder input[type=text]{
+
+  display: block;
+  justify-self: center;
+  width: 310px;
+  height: 19px;
+  top: 26px;
+  left: 30px;
+  padding: 0 77.12px 0 0;
+  font-family: Rubik sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #757575;
+  border: none;
+}
+.placeholder input[type=submit]{
+  position: absolute;
+  width: 123.19px;
+  height: 72px;
+  top: 30px;
+  left: 431.81px;
+  background: #FFFFFF;
+  border: none;
+}
+.col-xl-4{
+  width: 400px;
+  height: 630px;
+  top: 100px;
+  padding-left: 120px;
+  border: 2px;
+}
+.col-xl-4 p{
+  font-family: Open Sans sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.col-xl-4 h2{
+  font-family: Rubik sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.LinkDpU,.LinkDD,.LinkDiM,.LinkDL,.LinkPS,.LinkDvU{
+  width: 370px;
+  height: 180px;
+}
+
+.LinkDpU h4,.LinkDD h4,.LinkDiM h4,.LinkDL h4,.LinkPS,.LinkDvU{
+font-family: Rubik sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0;
+text-align: left;
+color: #0E2F4B;
+}
+.container2{
+  width: 1440px;
+  height: 600px;
+  top: 590px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.export-code-block{
+  position: absolute;
+  width: 1440px;
+  height: 660px;
+  top: 1390px;
+  padding: 120px 135px 150px 135px;
+  background: #042C4B;
+}
+.export-code-wrapper{
+  position: absolute;
+  width: 1170px;
+  height: 390px;
+  top: 120px;
+  left: 135px;
+  padding: 0 485px 0 0;
+}
+.col-xl-7{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 700px;
+  height: 390px;
+  left: -15px;
+}
+.col-xl-7 input[type="submit"]{
+  position: absolute;
+  width: 305px;
+  height: 80px;
+  top: 280px;
+  left: 30px;
+  padding: 28px 0 28px 0;
+  border-radius: 10px;
+  background: #FDC13D;
+}
+.col-xl-7 h2{
+  position: absolute;
+  font-family: Rubik sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #F8F8F8;
+}
+.col-xl-7 p{
+  position: absolute;
+  font-family: Open Sans sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #99A2AA;
+}
+.finance-services-block{
+  position: absolute;
+  display: flex;
+  width: 1440px;
+  height: 880px;
+  top: 2050px;
+  padding: 100px 120px 0 120px;
+  background: #F8F8F8;
+}
+.finance-container{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  height: 780px;
+  top: 100px;
+  left: 120px;
+}
+.slick-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1170px;
+  height: 220px;
+  left: 15px;
+  border-radius: 10px;
+  background: #FDC13D;
+}
+.slick-list h4{
+  font-family: Rubik sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.slick-list p{
+  font-family: Open Sans sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.finance-services-block h2{
+  position: absolute;
+  font-family: Rubik sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.GP{
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  top: 430px;
+  left: 15px;
+  font-family: Rubik sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.MP{
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  top: 430px;
+  left: 315px;
+  font-family: Rubik sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
+.St{
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  top: 430px;
+  left: 615px;
+  font-family: Rubik sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0E2F4B;
+}
