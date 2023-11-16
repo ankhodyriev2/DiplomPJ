@@ -57,18 +57,21 @@ li a{
   text-decoration: none;
 }
 .Tabpanel{
+  box-sizing: border-box;
+  width: 1440px;
+  height: 450px;
   display: inline-flex;
   padding: 0 735px 220px 135px;
   align-items: center;
   background: #FEC524;
 }
 .slider-item-content{
-  position: relative;
+  box-sizing: border-box;
+  width: 570px;
+  height: 230px;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  width: 570px;
-  height: 230px;
 }
 .slider-item-content h2{
   display: flex;
@@ -177,9 +180,10 @@ li a{
   text-decoration: none;
 }
 .services-block{
-  display: flex;
   position: relative;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   width: 1200px;
   height: 887.5px;
   flex-shrink: 2;
@@ -189,8 +193,6 @@ li a{
 }
 /*Великий вертикальний блок*/
 .col-xl-4{
-  margin-left: 15px;
-  position: relative;
   box-sizing: border-box;
   width: 400px;
   height: 630px;
@@ -222,62 +224,95 @@ li a{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;/* 187.5% */
   margin-block-start: 8px;
 }
 /* Блок з шести елементів у service-block*/
-.links6{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  width: 770px;
-  height: 600px;
-}
-.links6 h4{
-  margin-block-start: 0;
-  margin-block-end: 13px;
-}
-.links6 a{
+  .svg-group{
+  width: 168.297px;
+  height: 162.602px;
+  flex-shrink: 0;
+  }
+  /*контейнер*/
+.col-xl-4a{
+  width: 370px;
+  height: 630px;
   box-sizing: border-box;
-  padding-left: 15px;
-  padding-top: 30px;
   display: flex;
   flex-direction: column;
-  Width:370px;
-  Height:180px;
+  flex-shrink: 0;
+}
+.col-xl-4a a{
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 180px;
+  flex-shrink: 0;
+  color: #0E2F4B;
   font-family: Rubik sans-serif;
   font-size: 24px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #0E2F4B;
+  line-height: 32px; /* 133.333% */
   text-decoration: none;
 }
-
-
+.col-xl-4a h4{
+  display: flex;
+  height: 28px;
+  text-align: left;
+}
+.col-xl-4b{
+  width: 370px;
+  height: 630px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.col-xl-4b a{
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 180px;
+  flex-shrink: 0;
+  color: #0E2F4B;
+  font-family: Rubik sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  text-decoration: none;
+}
+.col-xl-4b h4{
+  display: flex;
+  height: 28px;
+  text-align: left;
+}
 /*export-code-block*/
 .export-code-block{
+  box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  align-items: flex-start;
   width: 1440px;
   height: 660px;
-  top: 1390px;
-  /*padding: 120px 135px 150px 135px;*/
+  padding: 120px 135px 150px 135px;
+  justify-content: center;
+  align-items: center;
   background: #042C4B;
 }
 .export-code-wrapper{
+  box-sizing: border-box;
   display: flex;
-  position: relative;
   width: 1170px;
   height: 390px;
-  top: 120px;
-  /*padding: 0 485px 0 0 ;*/
+  padding-right: 0;
+  align-items: center;
+  flex-shrink: 0;
+}
+.col-xl-7{
+  box-sizing: border-box;
+  width: 700px;
+  height: 390px;
+  flex-shrink: 0;
 }
 .col-xl-7 h2{
   height: 57px;
@@ -308,7 +343,6 @@ li a{
   height: 80px;
   top: 280px;
   left: 30px;
-  /*padding: 28 0 28px 0;*/
   border-radius: 10px;
   background: #FDC13D;
   font-family: Rubik sans-serif;
@@ -332,14 +366,14 @@ li a{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-content: flex-start;
   width: 1200px;
   height: 780px;
   flex-shrink: 0;
   padding: 100px 120px 0 120px;
 }
 .slick-list{
-  position: relative;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -440,22 +474,6 @@ li a{
   justify-content: flex-start;
   align-items: center;
 }
-/*Стилизація Докладніше*/
-.Dokladnishe{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 88.005px;
-  height: 17px;
-  flex-shrink: 0;
-  color: #0E2F4B;
-  font-family: Rubik sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px; /* 142.857% */
-}
 /*div.zip-code-block*/
 .zip-code-block{
   width: 1440px;
@@ -544,4 +562,21 @@ li a{
   font-style: normal;
   font-weight: 700;
   line-height: 80px; /* 400% */
+}
+/*Стилизація Докладніше*/
+.Dokladnishe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 88.005px;
+  height: 17px;
+  flex-shrink: 0;
+  color: #0E2F4B;
+  font-family: Rubik sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  text-align: left;
 }
